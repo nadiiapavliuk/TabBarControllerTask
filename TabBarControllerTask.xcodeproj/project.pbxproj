@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48DC3A09C96D31CD933A0F35 /* Pods_TabBarControllerTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2D9D3DE7BAC2F6A827EDAB /* Pods_TabBarControllerTask.framework */; };
+		B879EFB320D00208001EE397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879EFB220D00208001EE397 /* AppDelegate.swift */; };
+		B879EFB520D00208001EE397 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879EFB420D00208001EE397 /* GradientViewController.swift */; };
+		B879EFB820D00208001EE397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B879EFB620D00208001EE397 /* Main.storyboard */; };
+		B879EFBA20D0020A001EE397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B879EFB920D0020A001EE397 /* Assets.xcassets */; };
+		B879EFBD20D0020A001EE397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B879EFBB20D0020A001EE397 /* LaunchScreen.storyboard */; };
+		B8E2ADDF20D00EA5001E3642 /* TrafficLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2ADDE20D00EA5001E3642 /* TrafficLightController.swift */; };
+		B8E2ADE120D02E48001E3642 /* FontsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2ADE020D02E48001E3642 /* FontsViewController.swift */; };
+		B8E2ADE320D032B0001E3642 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2ADE220D032B0001E3642 /* ImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F2D9D3DE7BAC2F6A827EDAB /* Pods_TabBarControllerTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarControllerTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E550E2AE94D5C8072E7294 /* Pods-TabBarControllerTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarControllerTask/Pods-TabBarControllerTask.release.xcconfig"; sourceTree = "<group>"; };
+		B879EFAF20D00208001EE397 /* TabBarControllerTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarControllerTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B879EFB220D00208001EE397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B879EFB420D00208001EE397 /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		B879EFB720D00208001EE397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B879EFB920D0020A001EE397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B879EFBC20D0020A001EE397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B879EFBE20D0020A001EE397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E2ADDE20D00EA5001E3642 /* TrafficLightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightController.swift; sourceTree = "<group>"; };
+		B8E2ADE020D02E48001E3642 /* FontsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsViewController.swift; sourceTree = "<group>"; };
+		B8E2ADE220D032B0001E3642 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		C5B47E97628F5FB5D874B054 /* Pods-TabBarControllerTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarControllerTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarControllerTask/Pods-TabBarControllerTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B879EFAC20D00208001EE397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DC3A09C96D31CD933A0F35 /* Pods_TabBarControllerTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC8BAA3B620EABC700F3AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D9D3DE7BAC2F6A827EDAB /* Pods_TabBarControllerTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B246F0CDFC1AD8641A385760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5B47E97628F5FB5D874B054 /* Pods-TabBarControllerTask.debug.xcconfig */,
+				91E550E2AE94D5C8072E7294 /* Pods-TabBarControllerTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B879EFA620D00208001EE397 = {
+			isa = PBXGroup;
+			children = (
+				B879EFB120D00208001EE397 /* TabBarControllerTask */,
+				B879EFB020D00208001EE397 /* Products */,
+				B246F0CDFC1AD8641A385760 /* Pods */,
+				2FC8BAA3B620EABC700F3AA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B879EFB020D00208001EE397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B879EFAF20D00208001EE397 /* TabBarControllerTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B879EFB120D00208001EE397 /* TabBarControllerTask */ = {
+			isa = PBXGroup;
+			children = (
+				B879EFB220D00208001EE397 /* AppDelegate.swift */,
+				B879EFB420D00208001EE397 /* GradientViewController.swift */,
+				B8E2ADDE20D00EA5001E3642 /* TrafficLightController.swift */,
+				B8E2ADE020D02E48001E3642 /* FontsViewController.swift */,
+				B8E2ADE220D032B0001E3642 /* ImageViewController.swift */,
+				B879EFB620D00208001EE397 /* Main.storyboard */,
+				B879EFB920D0020A001EE397 /* Assets.xcassets */,
+				B879EFBB20D0020A001EE397 /* LaunchScreen.storyboard */,
+				B879EFBE20D0020A001EE397 /* Info.plist */,
+			);
+			path = TabBarControllerTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B879EFAE20D00208001EE397 /* TabBarControllerTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B879EFC120D0020A001EE397 /* Build configuration list for PBXNativeTarget "TabBarControllerTask" */;
+			buildPhases = (
+				1E5D4CD64751975299D77BB8 /* [CP] Check Pods Manifest.lock */,
+				B879EFAB20D00208001EE397 /* Sources */,
+				B879EFAC20D00208001EE397 /* Frameworks */,
+				B879EFAD20D00208001EE397 /* Resources */,
+				AD075D205270BD431B1D06B0 /* [CP] Embed Pods Frameworks */,
+				D36773283C8B13E079B73418 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarControllerTask;
+			productName = TabBarControllerTask;
+			productReference = B879EFAF20D00208001EE397 /* TabBarControllerTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B879EFA720D00208001EE397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nadiia Pavliuk";
+				TargetAttributes = {
+					B879EFAE20D00208001EE397 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = B879EFAA20D00208001EE397 /* Build configuration list for PBXProject "TabBarControllerTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B879EFA620D00208001EE397;
+			productRefGroup = B879EFB020D00208001EE397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B879EFAE20D00208001EE397 /* TabBarControllerTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B879EFAD20D00208001EE397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B879EFBD20D0020A001EE397 /* LaunchScreen.storyboard in Resources */,
+				B879EFBA20D0020A001EE397 /* Assets.xcassets in Resources */,
+				B879EFB820D00208001EE397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E5D4CD64751975299D77BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarControllerTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD075D205270BD431B1D06B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TabBarControllerTask/Pods-TabBarControllerTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBarControllerTask/Pods-TabBarControllerTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36773283C8B13E079B73418 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBarControllerTask/Pods-TabBarControllerTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B879EFAB20D00208001EE397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B879EFB520D00208001EE397 /* GradientViewController.swift in Sources */,
+				B8E2ADE120D02E48001E3642 /* FontsViewController.swift in Sources */,
+				B879EFB320D00208001EE397 /* AppDelegate.swift in Sources */,
+				B8E2ADE320D032B0001E3642 /* ImageViewController.swift in Sources */,
+				B8E2ADDF20D00EA5001E3642 /* TrafficLightController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B879EFB620D00208001EE397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B879EFB720D00208001EE397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B879EFBB20D0020A001EE397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B879EFBC20D0020A001EE397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B879EFBF20D0020A001EE397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B879EFC020D0020A001EE397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B879EFC220D0020A001EE397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B47E97628F5FB5D874B054 /* Pods-TabBarControllerTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33N85DNEU;
+				INFOPLIST_FILE = TabBarControllerTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-camp.TabBarControllerTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B879EFC320D0020A001EE397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E550E2AE94D5C8072E7294 /* Pods-TabBarControllerTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y33N85DNEU;
+				INFOPLIST_FILE = TabBarControllerTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-camp.TabBarControllerTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B879EFAA20D00208001EE397 /* Build configuration list for PBXProject "TabBarControllerTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B879EFBF20D0020A001EE397 /* Debug */,
+				B879EFC020D0020A001EE397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B879EFC120D0020A001EE397 /* Build configuration list for PBXNativeTarget "TabBarControllerTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B879EFC220D0020A001EE397 /* Debug */,
+				B879EFC320D0020A001EE397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B879EFA720D00208001EE397 /* Project object */;
+}
