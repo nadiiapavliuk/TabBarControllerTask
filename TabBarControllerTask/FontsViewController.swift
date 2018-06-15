@@ -12,12 +12,11 @@ import Foundation
 class FontsViewController: UITableViewController {
     
     var allFonts: [String] = []
-    var selectedIndex: IndexPath?
+    var selectedIndex: IndexPath!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         getFontsName()
     }
     
@@ -33,7 +32,7 @@ class FontsViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return allFonts.count
-
+        
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -43,13 +42,12 @@ class FontsViewController: UITableViewController {
         cell.fontNameLabel?.text = allFonts[indexPath.row]
         cell.fontNameLabel?.font = UIFont(name: "\(allFonts[indexPath.row])", size: 17)
         
-        if(indexPath == selectedIndex)
-        {
-            cell.accessoryType = UITableViewCellAccessoryType.checkmark;
-        }
-        else
-        {
-            cell.accessoryType = UITableViewCellAccessoryType.none;
+        let checkMarkToDisplay = UserDefaults.standard.value(forKey: "selectedIndex") as? Int
+        
+        if checkMarkToDisplay == indexPath.row {
+            cell.accessoryType = .checkmark
+        } else {
+            cell.accessoryType = .none
         }
         return cell
     }
@@ -60,15 +58,24 @@ class FontsViewController: UITableViewController {
             //print("Font family name = \(fontFamily as String)")
             //            self.allFonts.append(fontFamily)
             for fontName in UIFont.fontNames(forFamilyName: fontFamily as String) {
-              //  print("Font name = \(fontName)")
+                //  print("Font name = \(fontName)")
                 self.allFonts.append(fontName)
             }
         }
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        selectedIndex = indexPath
+        
+        if self.selectedIndex != nil {
+            self.tableView.cellForRow(at: self.selectedIndex)?.accessoryType = .none
+        }
+        if indexPath.row > 0 {
+            self.tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
+            self.selectedIndex = indexPath
+            self.tableView.deselectRow(at: indexPath, animated: true)
+        }
         tableView.reloadData()
+        UserDefaults.standard.set(indexPath.row, forKey: "selectedIndex")
     }
 }
 
